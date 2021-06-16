@@ -1,0 +1,17 @@
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Business.deps.json
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Business.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\ref\Github.JWTApplication.Business.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Business.pdb
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.DataAccess.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Entities.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.DataAccess.pdb
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Entities.pdb
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.csprojAssemblyReference.cache
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.AssemblyInfoInputs.cache
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.AssemblyInfo.cs
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.csproj.CoreCompileInputs.cache
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.csproj.CopyComplete
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\ref\Github.JWTApplication.Business.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.pdb

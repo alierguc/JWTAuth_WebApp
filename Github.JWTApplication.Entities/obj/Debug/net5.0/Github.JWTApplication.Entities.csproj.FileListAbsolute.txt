@@ -1,0 +1,12 @@
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\bin\Debug\net5.0\Github.JWTApplication.Entities.deps.json
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\bin\Debug\net5.0\Github.JWTApplication.Entities.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\bin\Debug\net5.0\ref\Github.JWTApplication.Entities.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\bin\Debug\net5.0\Github.JWTApplication.Entities.pdb
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.csprojAssemblyReference.cache
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.AssemblyInfoInputs.cache
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.AssemblyInfo.cs
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.csproj.CoreCompileInputs.cache
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\ref\Github.JWTApplication.Entities.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Entities\obj\Debug\net5.0\Github.JWTApplication.Entities.pdb
