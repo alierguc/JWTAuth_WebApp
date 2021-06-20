@@ -4,6 +4,7 @@
 ![example workflow](https://github.com/alierguc/JWTAuth_WebApp/actions/workflows/finalWorkflow.yml/badge.svg)
 ![example workflow](https://img.shields.io/badge/Release-1.0.0-blue)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
 this project was created with .NET Core 5.0 infrastructure. 
