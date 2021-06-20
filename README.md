@@ -67,7 +67,6 @@ The project was created by intertwining many principles. These Principles and st
 
 #### Thank You. Happy Coding. :) :wave:
 
-[![alierguc's github trophy](https://github-profile-trophy.vercel.app/?username=alierguc&row=1&theme=onedark)](https://github.com/alierguc/github-profile-trophy)
 
 
 
