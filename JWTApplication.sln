@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.JWTApplication.DataA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.JWTApplication.Business", "Github.JWTApplication.Business\Github.JWTApplication.Business.csproj", "{AC284132-D042-4DAE-B0FC-795002D87E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.JWTApplication.UnitTest", "Github.JWTApplication.UnitTest\Github.JWTApplication.UnitTest.csproj", "{D2459387-EE76-47FE-B148-A38CE4262A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.JWTApplication.UnitTest", "Github.JWTApplication.UnitTest\Github.JWTApplication.UnitTest.csproj", "{D2459387-EE76-47FE-B148-A38CE4262A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.JWTApplication.WebAPI", "Github.JWTApplication.WebAPI\Github.JWTApplication.WebAPI.csproj", "{5083E6E7-4F03-4C17-A85A-17A75B39C3A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.JWTApplication.WebAPI", "Github.JWTApplication.WebAPI\Github.JWTApplication.WebAPI.csproj", "{5083E6E7-4F03-4C17-A85A-17A75B39C3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.JWTApplication.Core", "Github.JWTApplication.Core\Github.JWTApplication.Core.csproj", "{0A511231-0FA9-4D4A-9268-8D5EEFF5498A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5083E6E7-4F03-4C17-A85A-17A75B39C3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5083E6E7-4F03-4C17-A85A-17A75B39C3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5083E6E7-4F03-4C17-A85A-17A75B39C3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A511231-0FA9-4D4A-9268-8D5EEFF5498A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A511231-0FA9-4D4A-9268-8D5EEFF5498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A511231-0FA9-4D4A-9268-8D5EEFF5498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A511231-0FA9-4D4A-9268-8D5EEFF5498A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

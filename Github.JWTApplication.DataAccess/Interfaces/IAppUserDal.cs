@@ -9,5 +9,6 @@ namespace Github.JWTApplication.DataAccess.Interfaces
 {
     public interface IAppUserDal : IGenericDal<AppUser>
     {
+        Task<List<AppRole>> GetRolesByUsername(string _username);
     }
 }

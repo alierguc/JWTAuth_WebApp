@@ -15,3 +15,5 @@ D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0
 D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\ref\Github.JWTApplication.Business.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\obj\Debug\net5.0\Github.JWTApplication.Business.pdb
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Core.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.Business\bin\Debug\net5.0\Github.JWTApplication.Core.pdb

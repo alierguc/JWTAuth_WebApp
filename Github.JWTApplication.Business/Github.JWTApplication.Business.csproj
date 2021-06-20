@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Github.JWTApplication.Core\Github.JWTApplication.Core.csproj" />
     <ProjectReference Include="..\Github.JWTApplication.DataAccess\Github.JWTApplication.DataAccess.csproj" />
     <ProjectReference Include="..\Github.JWTApplication.Entities\Github.JWTApplication.Entities.csproj" />
   </ItemGroup>

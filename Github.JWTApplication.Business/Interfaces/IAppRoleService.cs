@@ -9,5 +9,6 @@ namespace Github.JWTApplication.Business.Interfaces
 {
     public interface IAppRoleService : IGenericService<AppRole>
     {
+        Task<AppRole> FindByName(string _roleName);
     }
 }

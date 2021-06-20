@@ -12,7 +12,7 @@ namespace Github.JWTApplication.Business.ValidationRules.FluentValidation
     {
         public ProductAddDtoValidator()
         {
-            RuleFor(I => I.name).NotEmpty().WithMessage("Name field cannot be empty. !");
+            RuleFor(I => I.name).NotEmpty().WithMessage("Name Alanı Boş Bırakılamaz... !");
 
         }
         

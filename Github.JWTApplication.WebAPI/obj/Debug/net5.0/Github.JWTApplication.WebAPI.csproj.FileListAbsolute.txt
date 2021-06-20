@@ -20,7 +20,6 @@ D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\M
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -66,3 +65,8 @@ D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\obj\Debug\net5.0\G
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\FluentValidation.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Github.JWTApplication.Core.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\Github.JWTApplication.Core.pdb
+D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\JWTApplication\JWTApplication\Github.JWTApplication.WebAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

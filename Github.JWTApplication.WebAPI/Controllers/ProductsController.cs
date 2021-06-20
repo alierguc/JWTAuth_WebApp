@@ -1,6 +1,12 @@
-﻿using Github.JWTApplication.Business.Interfaces;
+﻿using AutoMapper;
+using Github.JWTApplication.Business.Interfaces;
+using Github.JWTApplication.Core.Constants;
 using Github.JWTApplication.Entities.Concrete;
 using Github.JWTApplication.Entities.Dtos;
+using Github.JWTApplication.Entities.Dtos.ProductDtos;
+using Github.JWTApplication.WebAPI.CustomFilters;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -15,18 +21,22 @@ namespace Github.JWTApplication.WebAPI.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
-        public ProductsController(IProductService productService)
+        private readonly IMapper _mapper;
+        public ProductsController(IProductService productService, IMapper mapper)
         {
             _productService = productService;
+            _mapper= mapper;
         }
 
-        [HttpGet]
+        [HttpGet("getAllProduct")]
+        [Authorize(Roles =RoleInfo.ADMIN+","+RoleInfo.MEMBER)]
         public async Task<IActionResult> GetAll()
         {
             var _products = await _productService.GetAll();
             return Ok(_products);
         }
-        [HttpGet("{id}")]
+        [HttpGet("getProductId/{id}")]
+        [Authorize(Roles =RoleInfo.ADMIN)]
         public async Task<IActionResult> GetById(int _id)
         {
             var product = await _productService.GetById(_id);
@@ -36,7 +46,9 @@ namespace Github.JWTApplication.WebAPI.Controllers
             }
             return Ok(product);
         }
-        [HttpPost]
+        [HttpPost("addProduct")]
+        [Authorize(Roles = RoleInfo.ADMIN)]
+        [ValidModel]
         public async Task<IActionResult> Add(ProductAddDto productAddDto)
         {
             if (ModelState.IsValid)
@@ -50,14 +62,25 @@ namespace Github.JWTApplication.WebAPI.Controllers
             }
             
         }
-        [HttpPut]
-        public async Task<IActionResult> Update(Product product)
+        [HttpPost("updateProduct")]
+        [Authorize(Roles = RoleInfo.ADMIN)]
+        [ValidModel]
+        public async Task<IActionResult> Update(ProductUpdateDto productUpdateDto)
         {
-            await _productService.Update(product);
-            return NoContent();
+            if (ModelState.IsValid)
+            {
+                await _productService.Update(_mapper.Map<Product>(productUpdateDto));
+                return Ok("Ilgili Kayıt Başarıyla Güncellendi.");
+            }
+            else
+            {
+                return Forbid();
+            }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("deleteProduct/{id}")]
+        [Authorize(Roles = RoleInfo.ADMIN)]
+        [ValidModel]
         public async Task<IActionResult> Delete(int _id)
         {
             await _productService.Remove(new Product() {id = _id });

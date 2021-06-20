@@ -2,9 +2,12 @@
 using Github.JWTApplication.Business.Concrete;
 using Github.JWTApplication.Business.Interfaces;
 using Github.JWTApplication.Business.ValidationRules.FluentValidation;
+using Github.JWTApplication.Core.Concrete;
+using Github.JWTApplication.Core.Services;
 using Github.JWTApplication.DataAccess.Concrete.EFCore.Repositories;
 using Github.JWTApplication.DataAccess.Interfaces;
 using Github.JWTApplication.Entities.Dtos;
+using Github.JWTApplication.Entities.Dtos.AppUserDtos;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -21,18 +24,29 @@ namespace Github.JWTApplication.Business.IoC
         /// Create Inversion Of Control Services
         /// </summary>
         /// <param name="_services">"_services" parameter is belongs to IServiceCollection. </param>
-        public static void AddDependencies(this IServiceCollection _services)
+        public static void AddDependencies(this IServiceCollection services)
         {
-            _services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
-            _services.AddScoped(typeof(IGenericDal<>), typeof(EFGenericRepositories<>));
-            _services.AddScoped<IProductDal, EFProductRepositories>();
-            _services.AddScoped<IProductService, ProductManager>();
-            _services.AddScoped<IAppUserDal, EFAppUserRepositories>();
-            _services.AddScoped<IAppUserService, AppUserManager>();
-            _services.AddScoped<IAppRoleDal, EFAppRoleRepositories>();
-            _services.AddScoped<IAppUserRoleDal, EFAppUserRoleRepositories>();
-            _services.AddScoped<IAppUserRoleService, AppUserRoleManager>();
-            _services.AddTransient<IValidator<ProductAddDto>, ProductAddDtoValidator>();
+            services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
+            services.AddScoped(typeof(IGenericDal<>), typeof(EFGenericRepositories<>));
+
+            services.AddScoped<IProductDal, EFProductRepositories>();
+            services.AddScoped<IProductService, ProductManager>();
+
+            services.AddScoped<IAppUserDal, EFAppUserRepositories>();
+            services.AddScoped<IAppUserService, AppUserManager>();
+
+            services.AddScoped<IAppRoleDal, EFAppRoleRepositories>();
+            services.AddScoped<IAppRoleService, AppRoleManager>();
+
+            services.AddScoped<IAppUserRoleDal, EFAppUserRoleRepositories>();
+            services.AddScoped<IAppUserRoleService, AppUserRoleManager>();
+
+            services.AddScoped<IJwtServices, JwtManager>();
+
+            services.AddTransient<IValidator<ProductAddDto>, ProductAddDtoValidator>();
+            services.AddTransient<IValidator<AppUserLoginDto>, AppUserDtoLoginValidator>();
+            services.AddTransient<IValidator<AppUserAddDto>, AppUserAddDtoValidator>();
+            services.AddTransient<IValidator<AppUserAddDto>, AppUserAddDtoValidator>();
 
         }
     }

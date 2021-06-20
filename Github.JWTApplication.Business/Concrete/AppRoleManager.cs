@@ -11,9 +11,15 @@ namespace Github.JWTApplication.Business.Concrete
 {
     public class AppRoleManager : GenericManager<AppRole>, IAppRoleService
     {
-        public AppRoleManager(IGenericDal<AppRole> genericDal):base(genericDal)
+        private readonly IGenericDal<AppRole> genericDal;
+        public AppRoleManager(IGenericDal<AppRole> _genericDal):base(_genericDal)
         {
+            genericDal = _genericDal;
+        }
 
+        public async Task<AppRole> FindByName(string _roleName)
+        {
+            return await genericDal.GetByFilter(I => I.name == _roleName);
         }
     }
 }
